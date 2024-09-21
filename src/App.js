@@ -22,6 +22,4 @@ function App() {
     );
 };
 
-const container = document.getElementById("app");
-const root = createRoot(container);
-root.render(<App />);
+export default App;
