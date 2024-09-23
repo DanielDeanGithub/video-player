@@ -17,7 +17,7 @@ function App() {
       <div>
         <h1>Video Player</h1>
         <Menu />
-        <Video />
+        <Video src={src}/>
       </div>
     );
 };
