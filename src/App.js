@@ -18,7 +18,7 @@ function App() {
 	return (
       <div>
         <h1>Video Player</h1>
-        <Menu/>
+        <Menu onSelectVideo={onSelectVideoHandler}/>
         <Video src={src}/>
       </div>
     );
