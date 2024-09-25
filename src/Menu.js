@@ -1,4 +1,5 @@
-function Menu() {
+function Menu({onSelectVideo}) {
+
 	return (
 		  <form>
 			  <input type="radio" name="src" value="fast"/> fast
