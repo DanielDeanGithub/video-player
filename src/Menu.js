@@ -1,4 +1,8 @@
 function Menu({onSelectVideo}) {
+	const clickHandler = ({target}) => {
+		const name = target.value;
+		onSelectVideo(name);
+	}
 
 	return (
 		  <form>
