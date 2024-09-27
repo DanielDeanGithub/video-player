@@ -12,16 +12,15 @@ const VIDEOS = {
 
 function App() {
 	const [src, setSrc] = useState(VIDEOS.fast);
-
-  const onSelectVideoHandler = newVideo => setSrc(VIDEOS[newVideo]);
+  const onClickHandler = ({target}) => setSrc(VIDEOS[target.value]);
 
 	return (
-      <div>
-        <h1>Video Player</h1>
-        <Menu onSelectVideo={onSelectVideoHandler}/>
-        <Video src={src}/>
-      </div>
-    );
+    <div>
+      <h1>Video Player</h1>
+      <Menu onClick={onClickHandler}/>
+      <Video src={src}/>
+    </div>
+  );
 };
 
 export default App;

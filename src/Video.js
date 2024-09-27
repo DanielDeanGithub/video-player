@@ -5,4 +5,5 @@ function Video({src}) {
       </div>
     );
 };
+
 export default Video;
