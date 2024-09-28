@@ -2,12 +2,14 @@
 
 ### FRONT-END DEVELOPMENT
 
-# Video Player
+# Styling Rock, Paper, Scissors
 
-You just learned your first programming pattern. Let’s put it to use!
+In this project, you will get the chance to practice styling React applications using different techniques.
 
-For this project, you’ll make three React components work together to create a responsive video player.
+You will be styling a game of Rock, Paper, Scissors. However, rather than sticking to one technique, you will be asked to modify its appearance using inline styling syntax, object variable syntax, and, finally, CSS modules!
 
-If you get stuck during this project or would like to see an experienced developer work through it, click “**Get Unstuck**“ to see a **project walkthrough video**.
+Throughout the project, you’ll be able to explore the advantages and disadvantages of each approach and practice React naming conventions for style properties.
 
-Let’s get started!
+By the end of this practice project, you will have improved your skills in styling React applications using various techniques and gained a deeper understanding of the different approaches. You will be able to apply your learnings to future React projects and improve your coding skills!
+
+Let’s roll up our sleeves and start!
